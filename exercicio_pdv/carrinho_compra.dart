@@ -2,7 +2,7 @@ import 'Item_compra.dart';
 
 class CarrinhoCompra {
   
-    List(Itemcompra> itens = [];
+    List<Itemcompra> itens = [];
     
     void adicionarItem(Itemcompra Item) {
         itens.add(Item);
@@ -33,11 +33,7 @@ class CarrinhoCompra {
 
     int quantidadeItens() {
         return itens.length;
-    }
-
-    
-       
-
+    }   
 }
 
 
